@@ -23,9 +23,9 @@ const config = {
 
 async function sendNewsletter() {
     try {
-        // Read the HTML email template
+        // Read the HTML email template (use newsletter-email.html for emails)
         const htmlContent = fs.readFileSync(
-            path.join(__dirname, 'index.html'),
+            path.join(__dirname, 'newsletter-email.html'),
             'utf8'
         );
 
