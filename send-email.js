@@ -15,7 +15,7 @@ const config = {
     appPassword: 'uvbz acme tilx doyw',
     
     // Recipient email(s) - can be a single email or array of emails
-    recipients: ['hartiksuhagiya10@gmail.com'],
+    recipients: ['hartiksuhagiya10@gmail.com', 'mukeshsuhagiya39@gmail.com'],
     
     // Email subject
     subject: 'Fight for a Living Wage - Join the Movement!'
