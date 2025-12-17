@@ -53,8 +53,8 @@ async function sendNewsletter() {
             html: htmlContent,
             // Embed the logo image
             attachments: [{
-                filename: 'logo.png',
-                path: path.join(__dirname, 'image.png'),
+                filename: 'logo.jpg',
+                path: path.join(__dirname, 'image.jpg'),
                 cid: 'logo-image' // Content-ID to reference in HTML
             }],
             // Plain text fallback for email clients that don't support HTML

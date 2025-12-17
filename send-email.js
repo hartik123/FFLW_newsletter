@@ -96,8 +96,8 @@ async function sendSingleEmail(transporter, recipient, htmlContent, plainText) {
         subject: config.subject,
         html: htmlContent,
         attachments: [{
-            filename: 'logo.png',
-            path: path.join(__dirname, 'image.png'),
+            filename: 'logo.jpg',
+            path: path.join(__dirname, 'image.jpg'),
             cid: 'logo-image'
         }],
         text: plainText
