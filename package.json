@@ -1,12 +1,14 @@
 {
-  "name": "newsletter-sender",
+  "name": "newsletter",
   "version": "1.0.0",
-  "description": "Send Fight for a Living Wage newsletter via email",
+  "description": "Fight for a Living Wage Newsletter",
   "main": "send-email.js",
   "scripts": {
-    "send": "node send-email.js"
+    "send": "node send-email.js",
+    "status": "node send-email.js status",
+    "reset": "node send-email.js reset"
   },
   "dependencies": {
-    "nodemailer": "^6.9.16"
+    "nodemailer": "^6.9.8"
   }
 }
